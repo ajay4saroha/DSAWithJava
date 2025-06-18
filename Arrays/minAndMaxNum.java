@@ -2,7 +2,6 @@ package Arrays;
 
 import java.util.Scanner;
 import java.util.*;
-import java.util.stream.*;
 
 public class minAndMaxNum {
     private static void printMsg(String str) {
