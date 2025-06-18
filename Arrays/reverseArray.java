@@ -7,10 +7,11 @@ public class reverseArray {
         System.out.println(str);
     }
     public static void printArray(int [] array) {
-        for(int n : array) {
-            System.out.print(n + " ");
-        };
-        printMsg("\n");
+        // for(int n : array) {
+        //     System.out.print(n + " ");
+        // };
+        System.out.println(Arrays.toString(array));
+        // printMsg("\n");
     }
     public static void reverseArr(int [] array) {
         int start = 0, end = array.length - 1;
